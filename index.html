@@ -1,11 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QR CODE</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chocolate Chip Cookies – Recipe</title>
+  <link rel="stylesheet" href="https://fadan3003.github.io/cookie/style.css">
+  <style>
+    :root {
+      --bg: #fffdf8;
+      --text: #2b2b2b;
+      --accent: #7c4a33;
+      --muted: #8d8d8d;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 2rem;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text); background: var(--bg);
+      line-height: 1.6;
+    }
+    .card {
+      width: 50%;
+      max-width: 800px; margin: 0 auto; background: #fff; border-radius: 14px;
+      box-shadow: 0 10px 24px rgba(0,0,0,0.08); overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    header {
+      padding: 1.75rem 2rem; background: #f9f3ee; border-bottom: 1px solid rgba(0,0,0,0.06);
+    }
+    h1 {
+      margin: 0 0 0.25rem; font-size: 1.9rem; color: var(--accent);
+    }
+    .meta {
+      font-size: 0.95rem; color: var(--muted);
+    }
+    .content { padding: 2rem; }
+    h2 {
+      font-size: 1.3rem; margin: 1.25rem 0 0.75rem;
+      color: var(--accent);
+    }
+    ul, ol { margin: 0; padding-left: 1.25rem; }
+    li { margin: 0.35rem 0; }
+    .grid {
+      display: grid; grid-template-columns: 1fr; gap: 1.75rem;
+    }
+    @media (min-width: 720px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+    .note {
+      margin-top: 1rem; font-size: 0.95rem; color: var(--muted);
+      background: #faf6f2; border-left: 4px solid var(--accent); padding: 0.75rem 1rem;
+    }
+    .footer {
+      padding: 1.25rem 2rem; background: #f7f7f7; font-size: 0.9rem; color: var(--muted);
+      border-top: 1px solid rgba(0,0,0,0.06);
+    }
+
+  #frame {
+    width: 50%;
+  }
+
+  </style>
 </head>
 <body>
-    
+
+  <div id="frame" class="login"><img src="https://fadan3003.github.io/cookie/IMG_0001.png"></div>
+
+  <main class="card" role="main">
+    <header>
+      <h1>Chocolate Chip Cookies</h1>
+      <p class="meta">Yields about 20–24 cookies · Prep: 20 min · Bake: 10–12 min</p>
+    </header>
+
+    <section class="content">
+      <div class="grid">
+        <article>
+          <h2>Ingredients</h2>
+          <ul>
+            <li>300 g chocolate chips</li>
+            <li>250 g butter (room temperature)</li>
+            <li>2 eggs (size M)</li>
+            <li>100 g brown sugar</li>
+            <li>130 g white sugar</li>
+            <li>1 packet vanilla sugar</li>
+            <li>330 g wheat flour</li>
+            <li>1 tsp baking soda</li>
+            <li>1 pinch of salt</li>
+          </ul>
+          <div class="note">
+            Tip: Replace 50 g of the chocolate chips with chopped dark chocolate for extra flavor.
+          </div>
+          <img src="https://th.bing.com/th/id/OIP.dJ05S5Joj8x4GXsNWYVZLgHaG0?w=207&h=190&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="cookie" style="margin-top: 20%;">
+        </article>
+
+        <article>
+          <h2>Preparation</h2>
+          <ol>
+            <li><strong>Preheat oven:</strong> 180 °C top/bottom heat (160 °C fan). Line baking sheets with parchment paper.</li>
+            <li><strong>Cream butter and sugar:</strong> Beat butter with brown, white, and vanilla sugar until light and fluffy (2–3 min).</li>
+            <li><strong>Add eggs:</strong> Mix in eggs one at a time until combined.</li>
+            <li><strong>Mix dry ingredients:</strong> Combine flour, baking soda, and salt. Add in two portions to the butter mixture, mixing just until dough forms.</li>
+            <li><strong>Fold in chocolate chips:</strong> Stir in chocolate chips evenly with a spatula.</li>
+            <li><strong>Shape cookies:</strong> Scoop dough balls (35–45 g) with a spoon or scoop, place on baking sheet with space, flatten slightly.</li>
+            <li><strong>Bake:</strong> 10–12 minutes until edges are golden and centers look soft. Do not overbake.</li>
+            <li><strong>Cool:</strong> Let cookies rest 5 minutes on sheet, then transfer to wire rack to cool completely.</li>
+          </ol>
+          <div class="note">
+            For chewy cookies, chill dough balls 30–60 minutes before baking; for crispier cookies, bake immediately.
+          </div>
+        </article>
+      </div>
+
+      <article>
+        <h2>Serving & Storage</h2>
+        <ul>
+          <li><strong>Serving:</strong> Best enjoyed warm with milk or coffee.</li>
+          <li><strong>Storage:</strong> Airtight at room temperature for 3–4 days. Freeze raw dough balls or baked cookies up to 2 months.</li>
+          <li><strong>Variation:</strong> Add 1 tsp cinnamon or 50 g chopped nuts for extra depth.</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="footer">
+      Happy baking!
+    </footer>
+  </main>
 </body>
 </html>
