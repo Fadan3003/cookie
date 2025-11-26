@@ -236,8 +236,6 @@ button:active {
 
 /* --- Login Container --- */
 .login {
-  width: 100%;
-  max-width: 400px; /* nicht zu breit */
   margin: 5vh auto; /* zentriert auf der Seite */
   padding: 2rem; /* Innenabstand */
   background-color: #ffffff; /* weißer Hintergrund */
